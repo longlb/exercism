@@ -1,3 +1,8 @@
+// Input cell is the independent variable
+// Compute cells are the dependent variables
+// Add code that changes Compute Cells when an InputCell is changed,
+// Also add notification system whenever a Compute is changed
+
 /// `InputCellID` is a unique identifier for an input cell.
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub struct InputCellID();

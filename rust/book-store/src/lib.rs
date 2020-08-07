@@ -26,8 +26,6 @@ impl Cart {
             book_sets.push(vec![*book]);
         }
 
-        println!("{:?}", book_sets);
-
         Self { book_sets }
     }
 
